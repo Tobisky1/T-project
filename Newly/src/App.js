@@ -1,7 +1,12 @@
+import Navbar from "./components/Navbar/Navbar";
+import Intro  from "./components/Intro/Intro";
+import './App.css'
+
 function App() {
   return (
     <div className="App">
-      I am a freelancer
+      <Navbar />
+      <Intro />
     </div>
   );
 }
